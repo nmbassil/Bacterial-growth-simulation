@@ -31,7 +31,9 @@ fGarch package in R, https://cran.r-project.org/web/packages/fGarch/index.html
 
 In R type the following to install all dependencies and run the app:
 ```
-install.packages("shiny", "ggplot2", "fGarch")
+install.packages("shiny")
+
+library(shiny)
 
 runGitHub("Bacterial-growth-simulation", "nmbassil")
 ```
